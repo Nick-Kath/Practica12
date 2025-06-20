@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica12</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <section class="seccion centrado">
+        <h1>Gradiente</h1>
+        <p>Este es un ejemplo de un fondo con gradiente.</p>
+
+        <div class="container" id="gradiente-box">
+        <p>Este es un div con un fondo de gradiente</p>
+        
+            <div class="inputs">
+                <label>color 1: <input type="color" id="color1" value="#ff0000"></label>
+                <label>color 2: <input type="color" id="color2" value="#0000ff"></label>
+            </div>
+
+        <button onclick="aplicarGradiente()">Aplicar Gradiente</button>
+        </div>
+    </section>
+
+
+    <section class="seccion centrado">
+        <h2>TABLA CON ESTILOS CSS</h2>
+        <table>
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>NOMBRE</th>
+            <th>CORREO</th>
+            <th>PAÍS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Ana</td><td>ana@correo.com</td><td>Perú</td></tr>
+            <tr><td>2</td><td>Juan</td><td>juan@correo.com</td><td>Ecuador</td></tr>
+            <tr><td>3</td><td>Pedro</td><td>pedro@correo.com</td><td>Chile</td></tr>
+            <tr><td>4</td><td>José</td><td>jose@correo.com</td><td>Brasil</td></tr>
+            <tr><td>5</td><td>María</td><td>maria@correo.com</td><td>Argentina</td></tr>
+        </tbody>
+        </table>
+    </section>
+
+    <section class="seccion centrado">
+        <form class="formulario" novalidate>
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <p>Mándame un mensaje y te responderé a la brevedad</p>
+
+        <div class="caja">
+            <label for="nombre">Nombre: *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre" aria-label="Nombre">
+
+            <label for="correo">Correo Electrónico: *</label>
+            <input type="email" id="correo" name="correo" required placeholder="Ingrese su correo electrónico" aria-label="Correo Electrónico">
+
+            <label for="telefono">Teléfono: *</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ingrese su número de teléfono" aria-label="Teléfono">
+
+            <label for="fecha">Fecha de Nacimiento: *</label>
+            <input type="date" id="fecha" name="fecha" required aria-label="Fecha de nacimiento">
+
+            <label for="pais">País: *</label>
+            <input type="text" id="pais" name="pais" value="Perú" required aria-label="País">
+        </div>
+
+        <label>Género: *</label>
+        <div class="radio-group">
+            <label><input type="radio" name="genero" value="Masculino" required> Masculino</label>
+            <label><input type="radio" name="genero" value="Femenino"> Femenino</label>
+            <label><input type="radio" name="genero" value="Otro"> Otro</label>
+        </div>
+
+        <label for="color">Color Favorito: *</label>
+        <input type="color" id="color" name="color" required aria-label="Color Favorito">
+
+        <label for="mensaje">Mensaje: *</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escriba su mensaje aquí" aria-label="Mensaje"></textarea>
+
+        <label for="archivo">Adjuntar Archivo: *</label>
+        <input type="file" id="archivo" name="archivo" required aria-label="Adjuntar Archivo">
+
+        <label><input type="checkbox" required> Acepto los términos y condiciones *</label>
+
+        <div class="botones">
+            <button type="reset" class="btn btn-red">Limpiar</button>
+            <button type="submit" class="btn btn-green">Enviar</button>
+        </div>
+        </form>
+    </section>    
+    
+</body>
+</html>

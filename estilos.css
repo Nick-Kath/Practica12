@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecf4;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.seccion{
+    padding: 70px 20px;
+}
+
+.centrado{
+    max-width: 860px;
+    margin: auto;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(to right, #062e3d, #1e9650, #c5e632);
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,3);
+}
+
+h1{
+    margin-bottom: 0.5rem;
+}
+
+.inputs{
+    margin: 1rem 0;
+}
+
+input[type="color"]{
+    margin: 0 0.5rem;
+    height: 2rem;
+    width: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 2px;
+    overflow: hidden;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td{
+    padding: 12px 70px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover{
+    background-color: #e0f7fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #1a237e;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.formulario input:valid {
+  border-color: #4caf50;
+}
+
+.formulario input:invalid {
+  border-color: #e53935;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.botones {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #388e3c;
+}
+
+.btn-red {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #c62828;
+}
+
+
+
